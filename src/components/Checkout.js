@@ -118,7 +118,7 @@ const CheckoutForm = () => {
 
     )
 }
-const stripePromise = loadStripe('pk_test_IU6BbVHwKnr60rI3QPEMJbB900L3NK4fVw');
+const stripePromise = loadStripe('pk_test_');
 
 const Checkout = () => {
     return (<Elements stripe={stripePromise} >
